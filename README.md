@@ -1,6 +1,10 @@
 ### Declaration
 This repo is based on https://github.com/Arnie97/docker-http-tunnel.
-The origin license is MIT.
+
+The license is MIT.
+
+### SSH Configure
+The default root password is 'password' (with no quotes).
 
 ### English
 Chinese cloud computing startup [DaoCloud](https://daocloud.io) provides a hosting platform for docker containers.
