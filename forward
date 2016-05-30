@@ -1,0 +1,6 @@
+#!/bin/sh
+/usr/sbin/sshd
+/usr/sbin/haproxy -q -D -f /etc/haproxy/haproxy.cfg
+
+# chisel runs on front
+chisel server --proxy http://localhost
